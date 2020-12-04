@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VISHNU VARDHAN REDDY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 04:25:35 PM"/>
+        <attribute name="created" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDQ6MDM6NDIgUE07Mzc1Mg=="/>
+        <attribute name="edited" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDQ6MjU6MzUgUE07MzszODY4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <call expression="AREA"/>
+        </body>
+    </function>
+    <function name="AREA" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="AREA, HEIGHT, BASE" type="Integer" array="False" size=""/>
+            <input variable="BASE"/>
+            <input variable="HEIGHT"/>
+            <assign variable="AREA" expression="0.5*BASE*HEIGHT"/>
+            <output expression="AREA" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VISHNU VARDHAN REDDY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 03:29:12 PM"/>
+        <attribute name="created" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDI6Mjc6MTQgUE07Mzc1NQ=="/>
+        <attribute name="edited" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDM6Mjk6MTIgUE07MTszODY0"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="VALUES, POSITIVE, NEGATIVE, ERROR, AREA, PERIMETER, RECTANGLE, LENGTH, BREADTH, A, B" type="Integer" array="False" size=""/>
+            <output expression="&quot;GIVE THE VALUES OF LENGTH  AND BREADTH TO CALCULATE WEATHER THE GIVEN VALUES ARE POSITIVE OR NEGATIVE THEN AREA AND PERIMETER&quot;" newline="True"/>
+            <input variable="LENGTH"/>
+            <input variable="BREADTH"/>
+            <if expression="LENGTH&gt;0">
+                <then>
+                    <if expression="BREADTH&gt;0">
+                        <then>
+                            <assign variable="AREA" expression="LENGTH*BREADTH"/>
+                            <assign variable="PERIMETER" expression="2*(LENGTH+BREADTH)"/>
+                            <output expression="AREA" newline="True"/>
+                            <output expression="PERIMETER" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;GIVEN BREADTH IS NEGATIVE&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <output expression="&quot;GIVEN  LENGTH  IS NEGATIVE&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
