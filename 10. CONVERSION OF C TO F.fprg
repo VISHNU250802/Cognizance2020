@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VISHNU VARDHAN REDDY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 02:27:02 PM"/>
+        <attribute name="created" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDI6MjA6MjAgUE07Mzc0NQ=="/>
+        <attribute name="edited" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDI6Mjc6MDIgUE07MTszODYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="CELCIUS, FARENHEIT, VALUE" type="Integer" array="False" size=""/>
+            <output expression="&quot;GIVE THE CELCIUS VALUE TO CONVERT INTO FARENHEIT&quot;" newline="True"/>
+            <input variable="CELCIUS"/>
+            <assign variable="FARENHEIT" expression="CELCIUS*1.8*32"/>
+            <output expression="FARENHEIT" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
