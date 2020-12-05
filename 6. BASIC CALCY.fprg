@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VISHNU VARDHAN REDDY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-16 09:26:57 PM"/>
+        <attribute name="created" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDc6NTY6MTMgUE07Mzc2MQ=="/>
+        <attribute name="edited" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTY7MDk6MjY6NTcgUE07NjszODgx"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, CHOOSE, ERROR" type="Integer" array="False" size=""/>
+            <output expression="&quot;CHOOSE  1  FOR SUM, 2  FOR DIFFERENCE, 3  FOR PRODUCT, 4  FOR REMAINDER&quot;" newline="True"/>
+            <input variable="CHOOSE"/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <if expression="CHOOSE==1">
+                <then>
+                    <output expression="a+b &amp;&quot;THE VALUE AFTER ADDITION&quot;" newline="False"/>
+                </then>
+                <else>
+                    <if expression="CHOOSE==2">
+                        <then>
+                            <if expression="a&gt;b">
+                                <then>
+                                    <output expression="a-b &amp; &quot;THE VALUE IS AFTER DIFFRENCE&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="a-b &amp; &quot;THE VALUE IS AFTER DIFFRENCE&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else>
+                            <if expression="CHOOSE==3">
+                                <then>
+                                    <output expression="a*b &amp; &quot;THE VALUE IS AFTER PRODUCT&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="CHOOSE==4">
+                                        <then>
+                                            <output expression="a/b &amp; &quot;THE VALUE AFTER REMAINDER&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="ERROR" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
