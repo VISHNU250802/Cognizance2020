@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="VISHNU VARDHAN REDDY"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2020-11-11 01:13:34 PM"/>
+        <attribute name="created" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTE7MTI6NDc6MTcgUE07Mzc1Ng=="/>
+        <attribute name="edited" value="VklTSE5VIFZBUkRIQU4gUkVERFk7REVTS1RPUC00M0sxVk9KOzIwMjAtMTEtMTE7MDE6MTM6MzQgUE07MTA7MzkwMg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="NUMBER, REMAINDER, REVERSE" type="Integer" array="False" size=""/>
+            <assign variable="REVERSE" expression="0"/>
+            <output expression="&quot;GIVE THE NUMBER TO REVERSE&quot;" newline="True"/>
+            <input variable="NUMBER"/>
+            <while expression="NUMBER&gt;=1">
+                <assign variable="REMAINDER" expression="NUMBER%10"/>
+                <assign variable="REVERSE" expression="REVERSE*10+REMAINDER"/>
+                <assign variable="NUMBER" expression="NUMBER/10"/>
+            </while>
+            <output expression="REVERSE" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
