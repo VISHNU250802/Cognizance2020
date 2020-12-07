@@ -66,3 +66,5 @@ void printNum(int num) {
 ![FUNCTION OF C++](https://1.bp.blogspot.com/-Gv7cTieyTIo/UvN1lPKrpnI/AAAAAAAAAhA/K4qkzzCZVms/w1200-h630-p-k-no-nu/function.png)
 <!-- Images -->
 ! [FUCNTION OF C++](https://i.ytimg.com/vi/Z2l3jNhb86o/maxresdefault.jpg)
+# FUNCTION PROTOTYPE
+- IN C++, the mode of functions declaration should be before the function call.
