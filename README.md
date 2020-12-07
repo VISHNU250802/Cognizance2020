@@ -70,4 +70,5 @@ void printNum(int num) {
 - IN C++, the mode of functions declaration should be before the function call.
 - if we want to define a function after the function prototype.
 #### This provides the compiler with information about the function name and its parameters.
+#### That's why we can use the code to call a function before the function has been defined.
 
