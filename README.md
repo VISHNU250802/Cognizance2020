@@ -68,4 +68,6 @@ void printNum(int num) {
 ! [FUCNTION OF C++](https://i.ytimg.com/vi/Z2l3jNhb86o/maxresdefault.jpg)
 # FUNCTION PROTOTYPE
 - IN C++, the mode of functions declaration should be before the function call.
-- if we want to define a function after the function prototype. 
+- if we want to define a function after the function prototype.
+#### This provides the compiler with information about the function name and its parameters.
+
