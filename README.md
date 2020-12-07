@@ -62,3 +62,5 @@ void printNum(int num) {
 #### variable,function parameter.
 <!-- Italics -->
 ## *A small example of c++ function*
+<!-- Images -->
+![FUNCTION OF C++](https://1.bp.blogspot.com/-Gv7cTieyTIo/UvN1lPKrpnI/AAAAAAAAAhA/K4qkzzCZVms/w1200-h630-p-k-no-nu/function.png)
